@@ -67,12 +67,12 @@ endif
 set runtimepath+=~/.config/nvim/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/Users/davileen/.config/nvim/dein')
-  call dein#begin('/Users/davileen/.config/nvim/dein')
+if dein#load_state('$VIMPATH/dein')
+  call dein#begin('$VIMPATH/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/Users/davileen/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('$VIMPATH/dein/repos/github.com/Shougo/dein.vim')
 
   call dein#add('haya14busa/dein-command.vim')
 
