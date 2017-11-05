@@ -1,0 +1,66 @@
+[submodule "dein/repos/github.com/Raimondi/delimitMate"]
+	path = dein/repos/github.com/Raimondi/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "dein/repos/github.com/chriskempson/base16-vim"]
+	path = dein/repos/github.com/chriskempson/base16-vim
+	url = https://github.com/chriskempson/base16-vim.git
+[submodule "dein/repos/github.com/haya14busa/dein-command.vim"]
+	path = dein/repos/github.com/haya14busa/dein-command.vim
+	url = https://github.com/haya14busa/dein-command.vim.git
+[submodule "dein/repos/github.com/junegunn/vim-peekaboo"]
+	path = dein/repos/github.com/junegunn/vim-peekaboo
+	url = https://github.com/junegunn/vim-peekaboo.git
+[submodule "dein/repos/github.com/mitsuhiko/vim-jinja"]
+	path = dein/repos/github.com/mitsuhiko/vim-jinja
+	url = https://github.com/mitsuhiko/vim-jinja.git
+[submodule "dein/repos/github.com/nathanaelkane/vim-indent-guides"]
+	path = dein/repos/github.com/nathanaelkane/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "dein/repos/github.com/ntpeters/vim-better-whitespace"]
+	path = dein/repos/github.com/ntpeters/vim-better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace.git
+[submodule "dein/repos/github.com/scrooloose/nerdtree"]
+	path = dein/repos/github.com/scrooloose/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "dein/repos/github.com/Shougo/dein.vim"]
+	path = dein/repos/github.com/Shougo/dein.vim
+	url = https://github.com/Shougo/dein.vim
+[submodule "dein/repos/github.com/Shougo/denite.nvim"]
+	path = dein/repos/github.com/Shougo/denite.nvim
+	url = https://github.com/Shougo/denite.nvim.git
+[submodule "dein/repos/github.com/Shougo/deoplete.nvim"]
+	path = dein/repos/github.com/Shougo/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim.git
+[submodule "dein/repos/github.com/Shougo/neosnippet-snippets"]
+	path = dein/repos/github.com/Shougo/neosnippet-snippets
+	url = https://github.com/Shougo/neosnippet-snippets.git
+[submodule "dein/repos/github.com/Shougo/neosnippet.vim"]
+	path = dein/repos/github.com/Shougo/neosnippet.vim
+	url = https://github.com/Shougo/neosnippet.vim.git
+[submodule "dein/repos/github.com/tmhedberg/SimpylFold"]
+	path = dein/repos/github.com/tmhedberg/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold.git
+[submodule "dein/repos/github.com/tpope/vim-commentary"]
+	path = dein/repos/github.com/tpope/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "dein/repos/github.com/tpope/vim-repeat"]
+	path = dein/repos/github.com/tpope/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "dein/repos/github.com/tpope/vim-surround"]
+	path = dein/repos/github.com/tpope/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "dein/repos/github.com/vim-airline/vim-airline"]
+	path = dein/repos/github.com/vim-airline/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "dein/repos/github.com/vim-airline/vim-airline-themes"]
+	path = dein/repos/github.com/vim-airline/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "dein/repos/github.com/vim-python/python-syntax"]
+	path = dein/repos/github.com/vim-python/python-syntax
+	url = https://github.com/vim-python/python-syntax.git
+[submodule "dein/repos/github.com/Xuyuanp/nerdtree-git-plugin"]
+	path = dein/repos/github.com/Xuyuanp/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "dein/repos/github.com/zchee/deoplete-jedi"]
+	path = dein/repos/github.com/zchee/deoplete-jedi
+	url = https://github.com/zchee/deoplete-jedi.git
