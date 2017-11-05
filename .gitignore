@@ -1,2 +1,3 @@
-autoload
-plugged
+dein/.cache
+dein/cache_nvim
+dein/state_nvim.vim
