@@ -139,6 +139,15 @@ if dein#load_state('$VIMPATH/dein')
 
   call dein#add('rhysd/committia.vim')
 
+  call dein#add('bkad/CamelCaseMotion', {
+  \ 'on_map': { 'nox': '<Plug>CamelCaseMotion' }
+  \ })
+
+  call dein#add('Shougo/echodoc.vim', {
+  \ 'on_event': 'CompleteDone',
+  \ 'hook_post_source': 'call echodoc#enable()',
+  \ })
+
   call dein#add('majutsushi/tagbar', {
   \ 'on_cmd': 'TagbarToggle',
   \ 'hook_source': 'let g:tagbar_width = 40'
