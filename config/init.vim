@@ -170,7 +170,11 @@ call s:source_file('mappings.vim')
 call s:source_file('theme.vim')
 set secure
 
-set shell=/usr/local/bin/fish
+if ! empty(glob("/usr/local/bin/fish"))
+  set shell=/usr/local/bin/fish
+else
+  set shell=/apollo/env/envImprovement/bin/fish
+endif
 
 " ------------------------
 
