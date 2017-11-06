@@ -73,3 +73,6 @@
 [submodule "dein/repos/github.com/rhysd/committia.vim"]
 	path = dein/repos/github.com/rhysd/committia.vim
 	url = https://github.com/rhysd/committia.vim.git
+[submodule "dein/repos/github.com/Shougo/echodoc.vim"]
+	path = dein/repos/github.com/Shougo/echodoc.vim
+	url = https://github.com/Shougo/echodoc.vim.git
