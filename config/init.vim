@@ -135,6 +135,14 @@ if dein#load_state('$VIMPATH/dein')
 
   call dein#add('tpope/vim-surround')
   call dein#add('tpope/vim-repeat')
+  call dein#add('itchyny/vim-parenmatch')
+
+  call dein#add('rhysd/committia.vim')
+
+  call dein#add('majutsushi/tagbar', {
+  \ 'on_cmd': 'TagbarToggle',
+  \ 'hook_source': 'let g:tagbar_width = 40'
+  \ })
 
   call dein#add('scrooloose/nerdtree', {
   \ 'depends': 'nerdtree-git-plugin',
@@ -186,6 +194,6 @@ let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#branch#enabled = 0
 
 "" Enter terminal in insert mode
-"au BufEnter * if &buftype == 'terminal' | :startinsert | endif
+au BufEnter * if &buftype == 'terminal' | :startinsert | endif
 
 " vim: set foldmethod=marker ts=2 sw=2 tw=80 noet expandtab :
