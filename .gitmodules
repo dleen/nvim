@@ -64,3 +64,12 @@
 [submodule "dein/repos/github.com/zchee/deoplete-jedi"]
 	path = dein/repos/github.com/zchee/deoplete-jedi
 	url = https://github.com/zchee/deoplete-jedi.git
+[submodule "dein/repos/github.com/itchyny/vim-parenmatch"]
+	path = dein/repos/github.com/itchyny/vim-parenmatch
+	url = https://github.com/itchyny/vim-parenmatch.git
+[submodule "dein/repos/github.com/majutsushi/tagbar"]
+	path = dein/repos/github.com/majutsushi/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "dein/repos/github.com/rhysd/committia.vim"]
+	path = dein/repos/github.com/rhysd/committia.vim
+	url = https://github.com/rhysd/committia.vim.git
