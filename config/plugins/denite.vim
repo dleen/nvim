@@ -42,7 +42,7 @@ call denite#custom#source(
 " FIND and GREP COMMANDS
 " The Silver Searcher
 call denite#custom#var('file_rec', 'command',
-  \ ['ag', '--hidden', '--follow', '--nocolor', '--nogroup', '-g', ''])
+  \ ['ag', '--hidden', '--follow', '--nocolor', '--ignore', '.git', '--nogroup', '-g', ''])
 
 " Setup ignore patterns in your .agignore file!
 " https://github.com/ggreer/the_silver_searcher/wiki/Advanced-Usage
