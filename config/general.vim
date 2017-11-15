@@ -39,6 +39,13 @@ set smartindent     " Smart autoindenting on new lines
 set shiftround      " Round indent to multiple of 'shiftwidth'
 " }}}
 
+set undofile swapfile nobackup
+set directory=$VARPATH/swap//,$VARPATH,~/tmp,/var/tmp,/tmp
+set undodir=$VARPATH/undo//,$VARPATH,~/tmp,/var/tmp,/tmp
+set backupdir=$VARPATH/backup/,$VARPATH,~/tmp,/var/tmp,/tmp
+set viewdir=$VARPATH/view/
+set nospell spellfile=$VIMPATH/spell/en.utf-8.add
+
 " Davileen " {{{
 set timeoutlen=1000 ttimeoutlen=0
 set backspace=indent,eol,start  "Allow backspace in insert mode
