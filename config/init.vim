@@ -92,6 +92,12 @@ if dein#load_state('$VIMPATH/dein')
   \ 'hook_add': 'let g:python_highlight_all = 1'
   \ })
 
+	call dein#add('leafgarland/typescript-vim', {
+  \ })
+
+	call dein#add('mhartington/nvim-typescript', {
+  \ })
+
   call dein#add('Shougo/neosnippet.vim', {
   \ 'depends': 'neosnippet-snippets',
   \ 'on_event': 'InsertCharPre',
@@ -138,6 +144,8 @@ if dein#load_state('$VIMPATH/dein')
   call dein#add('itchyny/vim-parenmatch')
 
   call dein#add('rhysd/committia.vim')
+
+  call dein#add('rust-lang/rust.vim')
 
   call dein#add('bkad/CamelCaseMotion', {
   \ 'on_map': { 'nox': '<Plug>CamelCaseMotion' }

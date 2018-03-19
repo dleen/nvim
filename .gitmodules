@@ -76,3 +76,12 @@
 [submodule "dein/repos/github.com/Shougo/echodoc.vim"]
 	path = dein/repos/github.com/Shougo/echodoc.vim
 	url = https://github.com/Shougo/echodoc.vim.git
+[submodule "dein/repos/github.com/leafgarland/typescript-vim"]
+	path = dein/repos/github.com/leafgarland/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
+[submodule "dein/repos/github.com/mhartington/nvim-typescript"]
+	path = dein/repos/github.com/mhartington/nvim-typescript
+	url = https://github.com/mhartington/nvim-typescript
+[submodule "dein/repos/github.com/rust-lang/rust.vim"]
+	path = dein/repos/github.com/rust-lang/rust.vim
+	url = https://github.com/rust-lang/rust.vim

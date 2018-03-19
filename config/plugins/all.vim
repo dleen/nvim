@@ -1,5 +1,5 @@
 if dein#tap('denite.nvim')
- 	nnoremap <silent><LocalLeader>r :<C-u>Denite -resume -refresh<CR>
+ 	nnoremap <silent><LocalLeader>r :<C-u>Denite -refresh<CR>
   nnoremap <silent><LocalLeader>b :<C-u>Denite buffer file_old -default-action=switch<CR>
   nnoremap <silent><LocalLeader>f :<C-u>Denite file_rec<CR>
   nnoremap <silent><LocalLeader>d :<C-u>Denite directory_rec -default-action=cd<CR>
