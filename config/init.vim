@@ -1,4 +1,5 @@
 let $VIMPATH = fnamemodify(resolve(expand('<sfile>:p')), ':h:h')
+let $VARPATH = expand(($XDG_CACHE_HOME ? $XDG_CACHE_HOME : '~/.cache').'/vim')
 
 function! s:source_file(path, ...) abort
   let use_global = get(a:000, 0, ! has('vim_starting'))
