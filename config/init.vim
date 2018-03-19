@@ -147,10 +147,6 @@ if dein#load_state('$VIMPATH/dein')
 
   call dein#add('rust-lang/rust.vim')
 
-  call dein#add('bkad/CamelCaseMotion', {
-  \ 'on_map': { 'nox': '<Plug>CamelCaseMotion' }
-  \ })
-
   call dein#add('Shougo/echodoc.vim', {
   \ 'on_event': 'CompleteDone',
   \ 'hook_post_source': 'call echodoc#enable()',
