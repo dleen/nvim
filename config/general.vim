@@ -29,7 +29,7 @@ endif
 "
 " ----------------
 set textwidth=80    " Text width maximum chars before wrapping
-set expandtab       " Don't expand tabs to spaces.
+set expandtab       " Expand tabs to spaces.
 set tabstop=2       " The number of spaces a tab is
 set softtabstop=2   " While performing editing operations
 set shiftwidth=2    " Number of spaces to use in auto(indent)
@@ -96,7 +96,8 @@ set showmatch " briefly jump to the matching bracket on insert
 set noshowmode
 
 " nvim python support
-let g:python_host_prog = '/usr/local/bin/python'
+let g:python3_host_prog = '/Users/davileen/.local/share/virtualenvs/nvim-TurP3Hnt/bin/python'
+let g:python_host_prog = '/Users/davileen/.local/share/virtualenvs/python2-neovim-JRAoj47o/bin/python'
 " }}}
 
 " Folds {{{

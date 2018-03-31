@@ -1,13 +1,13 @@
 " NERDTree
 " --------
 let g:NERDTreeMinimalUI = 1
-let g:NERDTreeWinSize = 50
+let g:NERDTreeWinSize = 70
 let g:NERDTreeCascadeOpenSingleChildDir = 1
 let g:NERDTreeCascadeSingleChildDir = 0
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeRespectWildIgnore = 0
 let g:NERDTreeAutoDeleteBuffer = 0
-let g:NERDTreeQuitOnOpen = 1
+let g:NERDTreeQuitOnOpen = 0
 let g:NERDTreeHijackNetrw = 1
 let g:NERDTreeBookmarksFile = $VARPATH.'/treemarks'
 let NERDTreeIgnore = [

@@ -1,6 +1,6 @@
 if dein#tap('denite.nvim')
  	nnoremap <silent><LocalLeader>r :<C-u>Denite -refresh<CR>
-  nnoremap <silent><LocalLeader>b :<C-u>Denite buffer file_old -default-action=switch<CR>
+  nnoremap <silent><LocalLeader>b :<C-u>Denite buffer file_old<CR>
   nnoremap <silent><LocalLeader>f :<C-u>Denite file_rec<CR>
   nnoremap <silent><LocalLeader>d :<C-u>Denite directory_rec -default-action=cd<CR>
   nnoremap <silent><LocalLeader>h :<C-u>Denite help<CR>
@@ -22,12 +22,14 @@ if dein#tap('vim-peekaboo')
 endif
 
 if dein#tap('vim-indent-guides')
+  let g:indent_guides_enable_on_vim_startup = 1
+
 	nmap <silent><Leader>ti :<C-u>IndentGuidesToggle<CR>
 endif
 
 if dein#tap('nerdtree')
-	let g:NERDTreeMapOpenSplit = 'sv'
-	let g:NERDTreeMapOpenVSplit = 'sg'
+	let g:NERDTreeMapOpenSplit = 'sh'
+	let g:NERDTreeMapOpenVSplit = 'sv'
 	let g:NERDTreeMapOpenInTab = 'st'
 	let g:NERDTreeMapOpenInTabSilent = 'sT'
 	let g:NERDTreeMapUpdirKeepOpen = '<BS>'
@@ -45,16 +47,4 @@ if dein#tap('tagbar')
 	" Also use h/l to open/close folds
 	let g:tagbar_map_closefold = ['h', '-', 'zc']
 	let g:tagbar_map_openfold = ['l', '+', 'zo']
-endif
-
-if dein#tap('CamelCaseMotion')
-	nmap <silent> e <Plug>CamelCaseMotion_e
-	xmap <silent> e <Plug>CamelCaseMotion_e
-	omap <silent> e <Plug>CamelCaseMotion_e
-	nmap <silent> w <Plug>CamelCaseMotion_w
-	xmap <silent> w <Plug>CamelCaseMotion_w
-	omap <silent> w <Plug>CamelCaseMotion_w
-	nmap <silent> b <Plug>CamelCaseMotion_b
-	xmap <silent> b <Plug>CamelCaseMotion_b
-	omap <silent> b <Plug>CamelCaseMotion_b
 endif

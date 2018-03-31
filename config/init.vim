@@ -146,8 +146,6 @@ if dein#load_state('$VIMPATH/dein')
 
   call dein#add('rhysd/committia.vim')
 
-  call dein#add('rust-lang/rust.vim')
-
   call dein#add('Shougo/echodoc.vim', {
   \ 'on_event': 'CompleteDone',
   \ 'hook_post_source': 'call echodoc#enable()',
@@ -200,12 +198,12 @@ endif
 
 " ------------------------
 
-"" Use powerline like the rest of vim.
+" Use powerline like the rest of vim.
 let g:airline_theme = 'base16'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
-"" Enter terminal in insert mode
+" Enter terminal in insert mode
 au BufEnter * if &buftype == 'terminal' | :startinsert | endif
 
 " vim: set foldmethod=marker ts=2 sw=2 tw=80 noet expandtab :
