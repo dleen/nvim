@@ -96,7 +96,7 @@ set showmatch " briefly jump to the matching bracket on insert
 set noshowmode
 
 " nvim python support
-if has("unix")
+if has("mac")
 	let g:python3_host_prog = '/Users/davileen/.local/share/virtualenvs/nvim-TurP3Hnt/bin/python'
 	let g:python_host_prog = '/Users/davileen/.local/share/virtualenvs/python2-neovim-JRAoj47o/bin/python'
 elseif has("unix")
