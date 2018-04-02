@@ -117,8 +117,6 @@ if dein#load_state('$VIMPATH/dein')
   \                      'let g:delimitMate_excluded_ft = "html"'], "\n")
   \ })
 
-  call dein#add('tmhedberg/SimpylFold')
-
   call dein#add('chriskempson/base16-vim')
 
   call dein#add('Shougo/denite.nvim', {
