@@ -96,8 +96,13 @@ set showmatch " briefly jump to the matching bracket on insert
 set noshowmode
 
 " nvim python support
-let g:python3_host_prog = '/Users/davileen/.local/share/virtualenvs/nvim-TurP3Hnt/bin/python'
-let g:python_host_prog = '/Users/davileen/.local/share/virtualenvs/python2-neovim-JRAoj47o/bin/python'
+if has("unix")
+	let g:python3_host_prog = '/Users/davileen/.local/share/virtualenvs/nvim-TurP3Hnt/bin/python'
+	let g:python_host_prog = '/Users/davileen/.local/share/virtualenvs/python2-neovim-JRAoj47o/bin/python'
+elseif has("unix")
+	let g:python3_host_prog = 'python3.6'
+	let g:python_host_prog = 'python'
+endif
 " }}}
 
 " Folds {{{
