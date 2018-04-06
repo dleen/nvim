@@ -2,8 +2,8 @@
 "---------------------------------------------------------
 " General
 " {{{
-"set mouse=nv                 " Disable mouse in command-line mode
-set modeline                 " automatically setting options from modelines
+"set mouse=nv                " Disable mouse in command-line mode
+set nomodeline               " automatically setting options from modelines
 set report=0                 " Don't report on line changes
 set errorbells               " Trigger bell on error
 set visualbell               " Use visual bell instead of beeping
